@@ -4033,7 +4033,7 @@ function get_each_context$2(ctx, list, i) {
 	return child_ctx;
 }
 
-// (75:6) {#each items as item}
+// (74:6) {#each items as item}
 function create_each_block$2(ctx) {
 	let li;
 	let img;
@@ -4092,10 +4092,10 @@ function create_each_block$2(ctx) {
 		h() {
 			if (!src_url_equal(img.src, img_src_value = /*item*/ ctx[7].image.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*item*/ ctx[7].image.alt);
-			attr(img, "class", "svelte-6njweo");
-			attr(div0, "class", "title svelte-6njweo");
-			attr(div2, "class", "description svelte-6njweo");
-			attr(li, "class", "svelte-6njweo");
+			attr(img, "class", "svelte-1a45id5");
+			attr(div0, "class", "title svelte-1a45id5");
+			attr(div2, "class", "description svelte-1a45id5");
+			attr(li, "class", "svelte-1a45id5");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -4191,10 +4191,10 @@ function create_fragment$5(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "heading svelte-6njweo");
-			attr(ul, "class", "svelte-6njweo");
-			attr(div0, "class", "section-container svelte-6njweo");
-			attr(section, "class", "svelte-6njweo");
+			attr(h2, "class", "heading svelte-1a45id5");
+			attr(ul, "class", "svelte-1a45id5");
+			attr(div0, "class", "section-container svelte-1a45id5");
+			attr(section, "class", "svelte-1a45id5");
 			attr(div1, "class", "component");
 			attr(div2, "class", "section");
 			attr(div2, "id", "section-26c510b1-a155-4e36-8925-2b7fcc12d6aa");
